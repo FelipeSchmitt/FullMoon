@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(0, 0, 0, 0.87) ;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.content2 p{
+    margin: 10px;
+    color: white;
+    font-size: 22px;
+}
+@media screen and (max-width: 900px) {
+    .content2{
+        grid-template-columns: 1fr 1fr;
+    }
+    .content2 img{
+        padding: 2px;
+    }
+}

@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: black;
+}
+#menu{
+    font-size: 26px;
+    padding: 24px;
+    color: white;
+    display: block;
+}
+#menu:hover{
+    color: gold;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
