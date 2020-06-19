@@ -21,4 +21,5 @@ a{
 @media screen and (max-width: 800px) {
 header #menu{
     margin: auto;
+    padding: 10px;
 }
